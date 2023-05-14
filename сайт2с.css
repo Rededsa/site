@@ -1,0 +1,1114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: black;
+}
+.header-line {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    margin-left: auto;
+    margin-right: 310px;
+}
+.meny {
+    margin-left: 45px;
+}
+.text-bbb {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.text-bbb2 {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.vk-and-tg {
+    margin-left: auto;
+    margin-right: 50px;
+}
+.header-logo2 {
+    display: none;
+}
+.seredina {
+    text-align: center;
+    margin-top: 60px;
+    
+}
+#oplata {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 35px;
+}
+#opisanie-oplata {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#dewu-url {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+#dewu-url:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.kak-oplata-vse {
+    margin-top: 90px;
+}
+#kak-oplata {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 35px;
+}
+#opisanie-kak-oplata {
+    font-family: 'Montserrat', sans-serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.vikup {
+    margin-top: 90px;
+}
+#zagolovok-delivery {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 35px;
+}
+#text-delivery {
+    font-family: 'Montserrat', sans-serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.how-much {
+    text-align: center;
+    margin-top: 100px;
+}
+#zagolovok-how-much {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.table {
+    font-family: 'Roboto', sans-serif;
+
+}
+.price-delivery {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 22px;
+
+    max-width: 800px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    margin-left: auto;
+    margin-right: auto;
+}
+#Доставка-из-Китая {
+    padding-right: 20%;
+    font-weight: 400;
+}
+#р-кг {
+    padding-left: 20%;
+    font-weight: 400;
+}
+.komissia {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 22px;
+
+    max-width: 800px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    margin-left: auto;
+    margin-right: auto;
+}
+#Комиссия-NECHAY-STORE {
+    padding-right: 16%;
+    font-weight: 400;
+}
+#kom {
+    padding-left: 16%;
+    font-weight: 400;
+}
+.strahovka {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 22px;
+
+    max-width: 800px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    margin-left: auto;
+    margin-right: auto;
+}
+#страховка-посылки {
+    padding-right: 22%;
+    font-weight: 400;
+}
+#strah-р {
+    padding-left: 22%;
+    font-weight: 400;
+}
+.kurs {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+
+    max-width: 800px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    margin-left: auto;
+    margin-right: auto;
+}
+#Курс-конвертации {
+    padding-right: 21%;
+    font-weight: 400;
+}
+#kurs-р {
+    padding-left: 21%;
+    font-weight: 400;
+}
+.button {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    border: 5px solid black;
+    padding: 10px 60px;
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+#button-s-o {
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+} 
+.header-end {
+    margin-top: 200px;
+    background-color: black;
+}
+.header-line-end {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+.meny-end {
+    margin-left: auto;
+    margin-right: 105px;
+
+}
+#logo-end {
+    margin-right: auto;
+    margin-left: 200px;
+}
+.header_meny {
+    display: none;
+}
+.dddddd {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.vk-and-tg2 {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1070px) {
+    
+    .header-logo2 {
+        display: block; 
+        padding-left: 30px;
+    }
+    .header-logo {
+        display: none;
+    }
+    .vk-and-tg {
+        display: flex;
+        align-items: center;
+    }
+    #logoo2 {
+        width: 110px;
+        height: 110px;
+    }
+    .text-bbb2 {
+        color: aliceblue;
+        text-decoration: none;
+        margin-right: 40px;
+        font-weight: 500;
+    
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+ }
+ @media screen and (max-width: 1200px) {
+    #logoo {
+        width: 110px;
+        height: 110px;
+    }
+    .header-line {
+        height: 110px;
+    }
+ }
+ @media screen and (max-width: 980px) {
+ #logo-end {
+    margin-left: 20px;
+}
+.meny-end {
+    display: flex;
+}
+.text-bbb2 {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+ }
+ @media screen and (max-width: 680px) {
+ .header-line-end {
+    display: block;
+}
+ }
+
+ @media screen and (max-width: 980px) {
+    .vk-and-tg {
+        display: none;
+    }
+    .text-bbb2 {
+        color: aliceblue;
+        text-decoration: none;
+        margin-right: 40px;
+        font-weight: 500;
+    
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+    }
+   .burger_meny {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    z-index: 3;
+   }
+   .burger_meny span {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 5px;
+    top: 19px;
+    
+    transition: background-color .4s, opacity .25s, transform .4s;
+   }
+   .burger_meny span:nth-child(1) {
+    transform: translateY(-10px)
+   }
+   .burger_meny span:nth-child(3) {
+    transform: translateY(10px)
+   }
+
+   /*крестик*/
+
+   .header.open .burger_meny span:nth-child(1) {
+    transform: translateY(0) rotate(45deg);
+   }
+   .header.open .burger_meny span:nth-child(2) {
+    opacity: 0;
+   }
+   .header.open .burger_meny span:nth-child(3) {
+    transform: translateY(0) rotate(-45deg);
+   }
+   
+
+   .meny {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    padding: 30px 10px 200px 50px;
+    z-index: 2;
+    width: 250px;
+    right: 0;
+    right: -650px;
+    transition: transform .5s, visibility .1s;
+    
+    height: 80px;
+    margin-top: 53px;
+    display: block;
+   }
+   .vk-and-tg2 {
+    position: absolute;
+    padding: 50px 10px 200px 40px;
+    width: 250px;
+    right: 0;
+    z-index: 5;
+    text-align: center;
+    margin-right: 22px;
+    right: -650px;
+    transition: transform .5s, visibility .1s;
+
+    height: 80px;
+    margin-top: 240px;
+    display: block;
+   }
+   .text-bbb {
+    display: block;
+    padding: 20px 0;
+    font-size: 15px;
+    text-align: center;
+   }
+   .header.open .vk-and-tg2 {
+    transform: translateX(-650px);
+    visibility: visible;
+   }
+   .header.open .meny {
+    transform: translateX(-650px);
+    visibility: visible;
+   }
+#logo-end {
+    margin-left: 20px;
+}
+.meny-end {
+    display: flex;
+}
+.text-bbb2 {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+ }
+
+ 
+ @media screen and (max-width: 900px) {
+    #переносы-расчет {
+        display: none;
+    }
+    .price-delivery {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 18px;
+    
+        max-width: 650px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Доставка-из-Китая {
+        padding-right: 20%;
+        font-weight: 400;
+    }
+    #р-кг {
+        padding-left: 20%;
+        font-weight: 400;
+    }
+    .komissia {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 18px;
+    
+        max-width: 650px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Комиссия-NECHAY-STORE {
+        padding-right: 16%;
+        font-weight: 400;
+    }
+    #kom {
+        padding-left: 16%;
+        font-weight: 400;
+    }
+    .strahovka {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 18px;
+    
+        max-width: 650px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #страховка-посылки {
+        padding-right: 22%;
+        font-weight: 400;
+    }
+    #strah-р {
+        padding-left: 22%;
+        font-weight: 400;
+    }
+    .kurs {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 18px;
+    
+        max-width: 650px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Курс-конвертации {
+        padding-right: 21%;
+        font-weight: 400;
+    }
+    #kurs-р {
+        padding-left: 21%;
+        font-weight: 400;
+    }
+
+    #kak-oplata {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    #opisanie-kak-oplata {
+        font-family: 'Montserrat', sans-serif;
+    
+        font-size: 22px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    #opisanie-oplata {
+        font-size: 22px;
+    }
+    #oplata {
+        font-size: 32px;
+    }
+    .vikup {
+        margin-top: 90px;
+    }
+    #zagolovok-delivery {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    #text-delivery {
+        font-family: 'Montserrat', sans-serif;
+    
+        font-size: 22px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    .how-much {
+        text-align: center;
+        margin-top: 100px;
+    }
+    #zagolovok-how-much {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 35px;
+ }
+}
+@media screen and (max-width: 700px) {
+    .price-delivery {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 15px;
+    
+        max-width: 550px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Доставка-из-Китая {
+        padding-right: 20%;
+        font-weight: 400;
+    }
+    #р-кг {
+        padding-left: 20%;
+        font-weight: 400;
+    }
+    .komissia {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 15px;
+    
+        max-width: 550px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Комиссия-NECHAY-STORE {
+        padding-right: 16%;
+        font-weight: 400;
+    }
+    #kom {
+        padding-left: 17%;
+        font-weight: 400;
+    }
+    .strahovka {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 15px;
+    
+        max-width: 550px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #страховка-посылки {
+        padding-right: 21%;
+        font-weight: 400;
+    }
+    #strah-р {
+        padding-left: 22%;
+        font-weight: 400;
+    }
+    .kurs {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 15px;
+    
+        max-width: 550px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Курс-конвертации {
+        padding-right: 21%;
+        font-weight: 400;
+    }
+    #kurs-р {
+        padding-left: 21%;
+        font-weight: 400;
+    }
+
+    #kak-oplata {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    #opisanie-kak-oplata {
+        font-family: 'Montserrat', sans-serif;
+    
+    
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    #opisanie-oplata {
+        font-size: 18px;
+    }
+    #oplata {
+        font-size: 27px;
+    }
+    .vikup {
+        margin-top: 90px;
+    }
+    #zagolovok-delivery {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    #text-delivery {
+        font-family: 'Montserrat', sans-serif;
+    
+    
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    .how-much {
+        text-align: center;
+        margin-top: 100px;
+    }
+    #zagolovok-how-much {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 30px;
+ }
+}
+@media screen and (max-width: 680px) {
+    .text-bbb2 {
+        color: aliceblue;
+        text-decoration: none;
+        margin-right: 40px;
+        font-weight: 500;
+    
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        white-space: nowrap;
+    }
+    
+    .header-line-end {
+        display: block;
+    }
+ }
+@media screen and (max-width: 580px) {
+    .price-delivery {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 12px;
+    
+        max-width: 450px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Доставка-из-Китая {
+        padding-right: 20%;
+        font-weight: 400;
+    }
+    #р-кг {
+        padding-left: 20%;
+        font-weight: 400;
+    }
+    .komissia {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 12px;
+    
+        max-width: 450px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Комиссия-NECHAY-STORE {
+        padding-right: 16%;
+        font-weight: 400;
+    }
+    #kom {
+        padding-left: 17%;
+        font-weight: 400;
+    }
+    .strahovka {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 12px;
+    
+        max-width: 450px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #страховка-посылки {
+        padding-right: 21%;
+        font-weight: 400;
+    }
+    #strah-р {
+        padding-left: 22%;
+        font-weight: 400;
+    }
+    .kurs {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 12px;
+    
+        max-width: 450px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Курс-конвертации {
+        padding-right: 21%;
+        font-weight: 400;
+    }
+    #kurs-р {
+        padding-left: 21%;
+        font-weight: 400;
+    }
+
+    #kak-oplata {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    #opisanie-kak-oplata {
+        font-family: 'Montserrat', sans-serif;
+    
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 10px;
+    }
+    #opisanie-oplata {
+        font-size: 18px;
+    }
+    #oplata {
+        font-size: 26px;
+    }
+    .vikup {
+        margin-top: 90px;
+    }
+    #zagolovok-delivery {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    #text-delivery {
+        font-family: 'Montserrat', sans-serif;
+    
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 10px;
+    }
+    .how-much {
+        text-align: center;
+        margin-top: 100px;
+    }
+    #zagolovok-how-much {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 28px;
+ }
+}
+@media screen and (max-width: 470px) {
+    .meny-end {
+        margin-left: 5px;
+    }
+    .price-delivery {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 10px;
+    
+        max-width: 370px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Доставка-из-Китая {
+        padding-right: 20%;
+        font-weight: 400;
+    }
+    #р-кг {
+        padding-left: 20%;
+        font-weight: 400;
+    }
+    .komissia {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 10px;
+    
+        max-width: 370px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Комиссия-NECHAY-STORE {
+        padding-right: 16%;
+        font-weight: 400;
+    }
+    #kom {
+        padding-left: 17%;
+        font-weight: 400;
+    }
+    .strahovka {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 10px;
+    
+        max-width: 370px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #страховка-посылки {
+        padding-right: 21%;
+        font-weight: 400;
+    }
+    #strah-р {
+        padding-left: 22%;
+        font-weight: 400;
+    }
+    .kurs {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 10px;
+    
+        max-width: 370px;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Курс-конвертации {
+        padding-right: 21%;
+        font-weight: 400;
+    }
+    #kurs-р {
+        padding-left: 21%;
+        font-weight: 400;
+    }
+
+    #kak-oplata {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    #opisanie-kak-oplata {
+        
+    
+        font-size: 17px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    #opisanie-oplata {
+        font-size: 18px;
+    }
+
+    #oplata {
+        font-size: 27px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .vikup {
+        margin-top: 90px;
+    }
+    #zagolovok-delivery {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    #text-delivery {
+        font-family: 'Montserrat', sans-serif;
+    
+        font-size: 17px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    .how-much {
+        text-align: center;
+        margin-top: 100px;
+    }
+    #zagolovok-how-much {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 28px;
+ }
+ #delivery-img {
+    width: 100px;
+    height: 100px;
+ }
+ #oplata-img {
+    width: 100px;
+    height: 100px;
+ }
+ #dollar {
+    width: 100px;
+    height: 100px;
+ }
+ #cost {
+    width: 100px;
+    height: 100px;
+ }
+ #button-s-o {
+    font-size: 18px;
+ }
+ .button {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    border: 4px solid black;
+    padding: 10px 40px;
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 45px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+.header-end {
+    margin-top: 120px;
+}
+.meny-end {
+    font-size: 15px;
+}
+.text-bbb2 {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+}
+@media screen and (max-width: 400px) {
+    #text-delivery {
+font-size: 16px;
+    }
+    #opisanie-oplata {
+        font-size: 16px;
+    }
+    #opisanie-kak-oplata {
+        font-size: 16px;
+    }
+}
