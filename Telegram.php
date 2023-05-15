@@ -1,9 +1,8 @@
 <?php
-echo "gfjk;lklm;86787g";
 /*получаем значения полей из формы*/
 $name = $_POST['name'];
 $fname = $_POST['fname'];
-$Telegram = $_POST['Telegram'];
+$email = $_POST['email'];
 $text = $_POST['text'];
 
 /*функция для создания запроса на сервер Telegram */
